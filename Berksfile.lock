@@ -1,0 +1,62 @@
+DEPENDENCIES
+  AppStackA
+    git: https://github.com/andy-dufour/AppStackA.git
+    revision: 6b48830271f1243dcb95b2e3b583eb441c19d1ee
+  AppStackB
+    git: https://github.com/andy-dufour/AppStackB.git
+    revision: 329fa5462a107c585279901aedf6d325b15a8f80
+  apt
+  chef-dk
+  chef-zero
+  coreOS
+    git: https://github.com/andy-dufour/coreOS.git
+    revision: a5ce56158ab73655c19c9833978afedb8febb7da
+  emacs
+  git
+  java
+  jenkins
+  yum
+
+GRAPH
+  AppStackA (0.1.0)
+  AppStackB (0.1.0)
+  apt (5.0.0)
+    compat_resource (>= 12.14.7)
+  build-essential (7.0.2)
+    compat_resource (>= 12.14)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  chef-dk (3.1.0)
+    dmg (~> 2.2)
+  chef-zero (2.0.1)
+    build-essential (>= 0.0.0)
+  compat_resource (12.16.2)
+  coreOS (0.1.0)
+  dmg (2.4.0)
+  emacs (0.10.0)
+  git (5.0.1)
+    build-essential (>= 0.0.0)
+    dmg (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  homebrew (2.1.2)
+    build-essential (>= 2.1.2)
+  java (1.42.0)
+    apt (>= 0.0.0)
+    homebrew (>= 0.0.0)
+    windows (>= 0.0.0)
+  jenkins (4.1.2)
+    compat_resource (>= 12.14.6)
+    runit (>= 1.7)
+  mingw (1.2.4)
+    compat_resource (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  packagecloud (0.2.5)
+  runit (3.0.0)
+    packagecloud (>= 0.0.0)
+    yum-epel (>= 0.0.0)
+  seven_zip (2.0.2)
+    windows (>= 1.2.2)
+  windows (2.0.2)
+  yum (4.1.0)
+  yum-epel (1.0.2)
+    yum (>= 3.6)
